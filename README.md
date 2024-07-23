@@ -2,6 +2,8 @@
 
 ## Dashboard Link: Not published
 
+## Report pdf: https://github.com/riteshhbhandari/Sales-Insights-Power-BI/blob/main/Sales-Insights-Power-BI-Project1.pdf
+
 **Problem Statement**
 
 This dashboard helps the computer hardware company understand their sales performance better. It tracks key performance indicators (KPIs) such as revenue, sales quantity, and regional breakdowns. By analyzing these metrics, the company can identify areas for improvement and strategize to enhance overall sales performance. The dashboard also highlights trends in sales data, enabling the company to make informed business decisions and optimize their operations.
@@ -14,19 +16,27 @@ Since certain regions may underperform, identifying and addressing these discrep
 
 **Step 1**: Load data into Power BI Desktop from a CSV file containing sales data.
 
+<img width="939" alt="01Sales-Insights-Power-BI-Project" src="https://github.com/user-attachments/assets/ba7fbaec-8db5-4101-8745-b82f88c7dbd8">
+
 **Step 2**: Open Power Query Editor and in the View tab under the Data Preview section, check "Column distribution," "Column quality," and "Column profile" options.
 
 **Step 3**: By default, profiling is opened for 1000 rows. Select "Column profiling based on entire dataset" for comprehensive analysis.
 
 **Step 4**: Verify that there are no errors or empty values in the columns except for minor discrepancies in the "Sales Quantity" column.
+<img width="594" alt="02Sales-Insights-Power-BI-Project" src="https://github.com/user-attachments/assets/ad5497ff-03a3-4cc6-979d-759b17cbde68">
+<img width="906" alt="04Sales-Insights-Power-BI-Project" src="https://github.com/user-attachments/assets/25ad67ed-c2d1-468a-8bc0-d92898c054c6">
 
 **Step 5**: For calculating average sales quantity, null values are not considered as they account for less than 1% of the total dataset.
+<img width="786" alt="08Sales-Insights-Power-BI-Project" src="https://github.com/user-attachments/assets/e7d6b6ec-cec8-488b-a19d-a4a27db33b96">
 
 **Step 6**: In the Report View, under the View tab, select a theme to enhance visual appeal.
 
 **Step 7**: Since the data includes various sales metrics, add new visuals using the three ellipses in the Visualizations pane in Report View.
 
 **Step 8**: Add Visual filters (Slicers) for fields such as "Region," "Product Category," "Sales Representative," and "Customer Segment."
+<img width="889" alt="07Sales-Insights-Power-BI-Project" src="https://github.com/user-attachments/assets/9a62a2a4-6802-42c8-8a00-3cf69ad3e992">
+<img width="889" alt="06Sales-Insights-Power-BI-Project" src="https://github.com/user-attachments/assets/13faaf99-7443-4c4e-9cb7-aabb4d86f6f8">
+
 
 **Step 9**: Add two card visuals to the canvas, one representing total revenue and the other representing total sales quantity. Use visual-level filters to exclude null values from the calculations.
 
@@ -85,6 +95,7 @@ A single-page report was created on Power BI Desktop and then published to Power
 
 - **Total Revenue**: 984.87M 
 - **Total Sales qty**: 2M
+<img width="594" alt="02Sales-Insights-Power-BI-Project" src="https://github.com/user-attachments/assets/38db329e-67a8-415e-88cf-e401e1fd632d">
 
 **[2] Sales Trends**
 
