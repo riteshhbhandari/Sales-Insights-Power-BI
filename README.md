@@ -2,7 +2,7 @@
 
 ## Dashboard Link: Not published
 
-## Report pdf: https://github.com/riteshhbhandari/Sales-Insights-Power-BI/blob/main/Sales-Insights-Power-BI-Project1.pdf
+### Report pdf: https://github.com/riteshhbhandari/Sales-Insights-Power-BI/blob/main/Sales-Insights-Power-BI-Project1.pdf
 
 **Problem Statement**
 
